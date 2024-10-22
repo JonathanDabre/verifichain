@@ -240,7 +240,7 @@ const DragAndDrop = () => {
           </div>
         ) : (
           <div className="file-hash-container w-full text-center">
-            {hash && (
+            {fileHash && (
               <div className="flex flex-col w-full xl:flex-row space-x-3">
                 <p className="bg-[#4F1C31] overflow-hidden px-3 py-2 rounded-lg text-[#EC5F8F] border border-[#EC5F8F] text-sm ">{hash}</p>
                 <button
