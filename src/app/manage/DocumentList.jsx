@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import AccessControl from './accessControl';
+import AccessControl from './AccessControl';
 import { RiCircleFill } from "react-icons/ri";
 
 const mockDocuments = [
